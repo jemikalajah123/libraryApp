@@ -1,0 +1,13 @@
+version: '3'
+services:
+   web:
+    build: .
+    networks:
+      - default
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/libraryapp
+    command: python manage.py migrate
+    command: python manage.py runserver 0.0.0.0:8000
+

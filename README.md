@@ -9,10 +9,13 @@ There is an API documentation built with postman to assist you on understanding 
 Run `git clone https://github.com/jemikalajah123/libraryApp.git` to clone the repository to your local.
 
 ## Start Development server with docker
-Make sure docker is insatlled on your local.
+Make sure docker is insatlled on your local and is running.
 Start the development server on docker with the following commands;
 
+Run `cd libraryApp` to navigate into the root directory.
+
 Run `docker-compose build` from the root directory.
+
 Run `docker-compose up` from the root directory.
 ## view the App
 Navigate to http://0.0.0.0:8000/. The app will not automatically reload if you change any of the source files.
